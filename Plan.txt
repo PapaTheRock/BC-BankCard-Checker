@@ -1,0 +1,3 @@
+Has multiple buttons with pre-made cards (12)
+Clinking the card outputs the number, is it valid/invalid, what company
+Allows for manual input of number that will be checked

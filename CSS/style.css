@@ -1,0 +1,71 @@
+html{
+    background-color: #210535
+;
+}
+.mainHeader{
+    text-align: center;
+    color: #f5d5e0;
+    font-family: 'Anybody';
+    font-size: 10vh;
+    padding-top: 10px;
+}
+.sideHeader{
+    color: #f5d5e0;
+    font-family: 'Anybody';
+    font-size: 5vh;
+    padding-top: 10px;
+    padding-left: 2vh;
+    text-align: right;
+    position: relative;
+}
+.leftText {
+    left: 0;
+    position: absolute;
+    padding-left: 4%;
+}
+.rightText {
+    padding-right: 25%;
+}
+.inputOutput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.input{
+    justify-content: space-between;
+    flex: 0 0 50%;
+}
+.cardButton{
+    font-family: 'Anybody';
+    text-align: center;
+    border: 2px solid #f5d5e0;
+    display: block;
+    color: #f5d5e0;
+    background-color: #210535;
+    border-radius: 4px;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+.cardButton:hover{
+    background-color: #f5d5e0;
+    color: #210535;
+}
+.manualButton{
+    width: 23%;
+}
+output{
+    flex: 0 0 50%;
+    text-align: right;
+    justify-content: space-between;
+}
+.miniHeader{
+    color: #f5d5e0;
+    font-family: 'Anybody';
+    font-size: 3vh;
+    text-align: right;
+    position: relative;
+}
